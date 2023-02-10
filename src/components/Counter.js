@@ -6,9 +6,6 @@ export function Counter() {
     const [value, setValue] = useState(0);
     const [message, setMessage] = useState("");
 
-    useEffect(() => {
-        // Codigo
-    }, []);
 
     const handleIncrement = () => {
         setValue(value + 1)
